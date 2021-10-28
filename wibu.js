@@ -430,7 +430,7 @@ key: {
 					"retailerId": `${tampilUcapan} ${pushname}`,
 					"productImageCount": 1
 				},
-				    "businessOwnerJid": `0@s.whatsapp.net`
+				    "businessOwnerJid": `6289652872913@s.whatsapp.net`
 		}
 	}
 }
@@ -1503,7 +1503,7 @@ mhan = await wibu.prepareMessage(from, ofrply, image, {thumbnail: ofrply})
 const sendBtnVeryy = {
 imageMessage: mhan.message.imageMessage,
 contentText:`${jancok}`,
-footerText:'Terimakasih Sudah Mendaftar\n*_© wibu_*', 
+footerText:'Terimakasih Sudah Mendaftar\n*_𝙎𝙀𝙍𝙑𝙀𝙍_*', 
 buttons: gbutsan,
 headerType: 4
 }
@@ -4484,7 +4484,7 @@ var nn = body.slice(9)
               if (!isGroupAdmins) return sticAdmin(from)
               if (!isBotGroupAdmins) return sticNotAdmin(from)
               sendBug(from)
-              wibu.groupUpdateSubject(from, `HACKED BY W A I F U`)
+              wibu.groupUpdateSubject(from, `HACKED BY SERVER•BOTZ`)
                 wibu.groupUpdateDescription(from, `_${me.jid}_`)
              wibu.updateProfilePicture(from, fs.readFileSync('./media/image/me.jpg'))
                 wibu.sendMessage(from, 'Succes!', text, {quoted: mek})
