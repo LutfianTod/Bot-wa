@@ -11,7 +11,7 @@
     <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-no-red.svg" />
   </a>
 </p>
-<a href="https://chat.whatsapp.com/EymjfVUattCJSGg58WPvrd"><img alt="WhatsApp" src="https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
+<a href="https://chat.whatsapp.com/HeTz9wRqnosJCPZ2rn03aO"><img alt="WhatsApp" src="https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
  
 </div>
 
@@ -35,8 +35,8 @@
 ```
 
 #### Change `config.json` 
-##### Register in <b>[zeks.xyz](https://zeks.xyz)</b> to get apiKey then enter to zeksKey in `config.json`
-### Start ✅
+##### Register in <b>[zeks.xyz](https://zeks.xyz)</b> to get apiKey then enter to zeksKey in `wibu.json`
+### SERVER•BOT BY SAMSON
 
 ```bash
 > npm start [session name] [--options]
