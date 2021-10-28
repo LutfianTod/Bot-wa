@@ -2,7 +2,7 @@
   "name": "WIBUBOT",
   "version": "0.0.1",
   "description": "𝘽𝙊𝙏𝙕𝙎𝙀𝙍𝙑𝙀𝙍",
-  "main": "node .",
+  "main": "node wibu.js",
   "directories": {
     "lib": "lib"
   },
