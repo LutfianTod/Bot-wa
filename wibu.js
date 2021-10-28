@@ -1,4 +1,4 @@
-﻿///----------( Created By W A I F U )----------\\\
+///----------( Created By W A I F U )----------\\\
 
 /**
 * Note:
@@ -320,11 +320,11 @@ try {
 		}
 		if (antibot === true) return
 		const katalog = (teks) => {
-             res = wibu.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 321, "message": teks, "footerText": "*_© W A I F U_*", "thumbnail": ofrply, "surface": 'CATALOG' }}, {quoted:ftrol})
+             res = wibu.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 321, "message": teks, "footerText": "*_©𝘽𝙊𝙏𝙕©𝙎𝙀𝙍𝙑𝙀𝙍*", "thumbnail": ofrply, "surface": 'CATALOG' }}, {quoted:ftrol})
              wibu.relayWAMessage(res)
         }
         const grupinv = (teks) => {
-        	grup = wibu.prepareMessageFromContent(from, { "groupInviteMessage": { "groupJid": '6288213840883-1616169743@g.us', "inviteCode": 'https://chat.whatsapp.com/JI25LDtPW784GAZoRD9fW9', "groupName": `${NamaBot}`, "footerText": "*_© W A I F U_*", "jpegThumbnail": ofrply, "caption": teks}}, {quoted:finv})
+        	grup = wibu.prepareMessageFromContent(from, { "groupInviteMessage": { "groupJid": '6288213840883-1616169743@g.us', "inviteCode": 'https://chat.whatsapp.com/JI25LDtPW784GAZoRD9fW9', "groupName": `${NamaBot}`, "footerText": "*_©𝘽𝙊𝙏𝙕©𝙎𝙀𝙍𝙑𝙀𝙍*", "jpegThumbnail": ofrply, "caption": teks}}, {quoted:finv})
             wibu.relayWAMessage(grup)
         }
 		idttt = []
@@ -576,7 +576,7 @@ const fvoc = {
 	 message: { 
 		"audioMessage": {
                  "mimetype":"audio/ogg; codecs=opus",
-                 "seconds": "99999",
+                 "seconds": "00.10",
                  "ptt": "true"
                         }
 	                  } 
@@ -701,7 +701,7 @@ if (!mek.key.remoteJid.endsWith('@g.us') && offline){
             if (isAfk(mek.key.remoteJid)) return
             addafk(mek.key.remoteJid)
 			heheh = ms(Date.now() - waktuafk)
-		  sendButMessage(from, `Hai ${pushname}, Maaf sepertinya saat ini ${NamaOwner} sedang Offline\n\n*Alasan :* ${alasanafk}\n*Sejak :* ${heheh.hours} Jam, ${heheh.minutes} Menit, ${heheh.seconds} Detik\n\nSilahkan hubungi lagi setelah Online`, "*_© W A I F U_*", [{buttonId: 'simi', buttonText: {displayText: 'Oke'}, type: 1}], {quoted:ftrol, contextInfo: { forwardingScore: 508, isForwarded: true}})
+		  sendButMessage(from, `Hai ${pushname}, Maaf sepertinya saat ini ${NamaOwner} sedang Offline\n\n*Alasan :* ${alasanafk}\n*Sejak :* ${heheh.hours} Jam, ${heheh.minutes} Menit, ${heheh.seconds} Detik\n\nSilahkan hubungi lagi setelah Online`, "*_©𝘽𝙊𝙏𝙕©𝙎𝙀𝙍𝙑𝙀𝙍_*", [{buttonId: 'simi', buttonText: {displayText: 'Oke'}, type: 1}], {quoted:ftrol, contextInfo: { forwardingScore: 508, isForwarded: true}})
 			}
 		}
 		if (mek.key.remoteJid.endsWith('@g.us') && offline) {
@@ -714,7 +714,7 @@ if (!mek.key.remoteJid.endsWith('@g.us') && offline){
                         if (isAfk(mek.key.remoteJid)) return
                         addafk(mek.key.remoteJid)
 						heheh = ms(Date.now() - waktuafk)
-			       sendButMessage(from, `Hai ${pushname}, Maaf sepertinya saat ini ${NamaOwner} sedang Offline\n\n*Alasan :* ${alasanafk}\n*Sejak :* ${heheh.hours} Jam, ${heheh.minutes} Menit, ${heheh.seconds} Detik\n\nSilahkan hubungi lagi setelah Online`, "*_© W A I F U_*", [{buttonId: 'simi', buttonText: {displayText: 'Oke'}, type: 1}], {quoted:ftrol, contextInfo: { forwardingScore: 508, isForwarded: true}})
+			       sendButMessage(from, `Hai ${pushname}, Maaf sepertinya saat ini ${NamaOwner} sedang Offline\n\n*Alasan :* ${alasanafk}\n*Sejak :* ${heheh.hours} Jam, ${heheh.minutes} Menit, ${heheh.seconds} Detik\n\nSilahkan hubungi lagi setelah Online`, "*_𝘽𝙊𝙏𝙕©𝙎𝙀𝙍𝙑𝙀𝙍_*", [{buttonId: 'simi', buttonText: {displayText: 'Oke'}, type: 1}], {quoted:ftrol, contextInfo: { forwardingScore: 508, isForwarded: true}})
 					}
 				}
 						}
@@ -778,7 +778,7 @@ if (!mek.key.remoteJid.endsWith('@g.us') && offline){
 	        wibu.sendMessage(from, { displayname: nama, vcard: vcard}, MessageType.contact, {contextInfo: {"mentionedJid": ane}})
             }
 		const reply = (teks) => {
-			wibu.sendMessage(from, teks, text, { thumbnail: dfrply, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `${jmn} - ${week} ${weton} - ${calender}`,body:"DON'T CLICK HERE",previewType:"PHOTO",thumbnail:ofrply,sourceUrl:`https://wa.me/p/6349482305092740/6281220670449`}}})
+			wibu.sendMessage(from, teks, text, { thumbnail: dfrply, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `${jmn} - ${week} ${weton} - ${calender}`,body:"DON'T CLICK HERE",previewType:"PHOTO",thumbnail:ofrply,sourceUrl:`https://wa.me/p/6349482305092740/6289652872913`}}})
 		}
 		const simir = (teks) => {
 			wibu.sendMessage(from, teks, text, { quoted:ftrol })
@@ -1002,13 +1002,13 @@ if (!settings.autorecording) {
 wibu.updatePresence(from, Presence.recording)
 }
 if (budy.startsWith('wibu')){
-sendButMessage(from, `${JSON.stringify(me, null, 2)}`, "*_© KurrXd_*", [{buttonId: 'igm', buttonText: {displayText: 'Instagram'}, type: 1},{buttonId: 'ytm', buttonText: {displayText: 'YouTube'}, type: 1}], {quoted:ftrol, contextInfo: { forwardingScore: 508, isForwarded: true}})
+sendButMessage(from, `${JSON.stringify(me, null, 2)}`, "*_© 𝘽𝙊𝙏𝙕𝙎𝙀𝙍𝙑𝙀𝙍_*", [{buttonId: 'igm', buttonText: {displayText: 'Instagram'}, type: 1},{buttonId: 'ytm', buttonText: {displayText: 'YouTube'}, type: 1}], {quoted:ftrol, contextInfo: { forwardingScore: 508, isForwarded: true}})
 }
 if(isButton == 'igm'){
-reply('http://instagram.com/kurrsadboy')
+reply('http://instagram.com/bocah_stick')
 }
 if(isButton == 'ytm'){
-reply('http://youtube.com/c/KurrXd')
+reply('https://youtube.com/channel/UCzI784CxIQpTOVpTKzL_P0g')
 }
 
    const sotoy = [
@@ -1076,7 +1076,7 @@ Jika Button Tidak Muncul Ketik .allmenu`
 menu =`W A I F U 🏴‍☠️`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'🏴‍☠️SHOW MENU🏴‍☠️'},type:1},
-{buttonId:`owner`,buttonText:{displayText:'🛐OWNER🛐'},type:1},
+{buttonId:`owner`,buttonText:{displayText:'OWNER'},type:1},
 {buttonId:`script`,buttonText:{displayText:'🤖SEWABOT🤖'},type:1}
 ]
 mhan = await wibu.prepareMessage(from, ofrply, image, {thumbnail: ofrply})
@@ -1105,7 +1105,7 @@ else if(menusimpel = true){
 			num = await fetchJson(`https://api.telnyx.com/anonymous/v2/number_lookup/${senderNumber}`, {method: 'get'})
        menu = `┌───「 \`\`\`${NamaBot}\`\`\` 」
 │
-🏴‍☠️ _Creator : *KurrXd* (CUMAN RECODE)
+🏴‍☠️ _Creator : *𝘽𝙊𝙏𝙕𝙎𝙀𝙍𝙑𝙀𝙍* (CUMAN RECODE)
 🏴‍☠️ _Battery : ${baterai.battery}_
 🏴‍☠️ _Mode : ${publik ? 'Public' : 'Self'}_
 🏴‍☠️ _Total Hit : ${cmhit.length}_
@@ -1128,7 +1128,7 @@ else if(menusimpel = true){
 🏴‍☠️ _Info Nomor : ${num.data.country_code} - ${num.data.carrier.type} - ${num.data.carrier.name}_
 │
 └───「 \`\`\`${NamaBot}\`\`\` 」`
-sendButLocation(from, `${menu}`, "*_© W A I F U_*", {jpegThumbnail:ofrply,name:""}, [{buttonId:`command`,buttonText:{displayText:'BUTTON MENU'},type:1},{buttonId:`owner`,buttonText:{displayText:'DEVELOPER'},type:1},{buttonId:`script`,buttonText:{displayText:'SOURCE CODE'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_𝘽𝙊𝙏𝙕©𝙎𝙀𝙍𝙑𝙀𝙍_*", {jpegThumbnail:ofrply,name:""}, [{buttonId:`command`,buttonText:{displayText:'BUTTON MENU'},type:1},{buttonId:`owner`,buttonText:{displayText:'DEVELOPER'},type:1},{buttonId:`script`,buttonText:{displayText:'SOURCE CODE'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 break
 case 'allmenu': 
@@ -1136,11 +1136,11 @@ case 'allmenu':
 stod = `${sender}`
        stst = await wibu.getStatus(`${sender.split('@')[0]}@c.us`)
        nama = '🏴‍☠️ W A I F U 🏴‍☠️'
-       ownerJid = "6281220670449@s.whatsapp.net"
+       ownerJid = "6289652872913@s.whatsapp.net"
 				stst = stst.status == 401 ? '' : stst.status
 			num = await fetchJson(`https://api.telnyx.com/anonymous/v2/number_lookup/${senderNumber}`, {method: 'get'})
 menunya = `╭─❒ 「 Bot Info 」 ❒
-🏴‍☠️ _Creator : *KurrXd* (CUMAN RECODE)
+🏴‍☠️ _Creator : *𝘽𝙊𝙏𝙕𝙎𝙀𝙍𝙑𝙀𝙍* (CUMAN RECODE)
 🏴‍☠️ _Battery : ${baterai.battery}_
 🏴‍☠️ _Mode : ${publik ? 'Public' : 'Self'}_
 🏴‍☠️ _Total Hit : ${cmhit.length}_
@@ -1465,8 +1465,8 @@ anu = wibu.prepareMessageFromContent(from,{
                   wibu.relayWAMessage(anu)
                   } else if(menuall = true){
 gbutsan = [
-{buttonId:`owner`,buttonText:{displayText:'🛐OWNER🛐'},type:1},
-{buttonId:`donasi`,buttonText:{displayText:'💗DONASI💗'},type:1},
+{buttonId:`owner`,buttonText:{displayText:'OWNER'},type:1},
+{buttonId:`donasi`,buttonText:{displayText:'DONASI'},type:1},
 {buttonId:`script`,buttonText:{displayText:'🤖SEWABOT🤖'},type:1}
 ]
 mhan = await wibu.prepareMessage(from, pporigi, image, {thumbnail: pporigi})
@@ -1497,7 +1497,7 @@ const serialUser = createSerial(18)
 *「 ${NamaBot} 」*`
 gbutsan = [
 {buttonId:`menu`,buttonText:{displayText:'🏴‍☠️MENU🏴‍☠️'},type:1},
-{buttonId:`donasi`,buttonText:{displayText:'💗DONASI💗'},type:1}
+{buttonId:`donasi`,buttonText:{displayText:'DONASI'},type:1}
 ]
 mhan = await wibu.prepareMessage(from, ofrply, image, {thumbnail: ofrply})
 const sendBtnVeryy = {
@@ -1516,7 +1516,7 @@ case 'command':
  stod = `${sender}`
  listMsg = {
  buttonText: 'LIST MENU',
- footerText: '*_© W A I F U_*',
+ footerText: '*_𝘽𝙊𝙏𝙕©𝙎𝙀𝙍𝙑𝙀𝙍_*',
  description: `Hai kak @${stod.split('@')[0]}, Silahkan pilih menu disini`,
  sections: [
                      {
@@ -2758,7 +2758,7 @@ anu =`Silahkan pilih salah satu di bawah`
  buttons = [{buttonId: 'setmenu ori', buttonText: {displayText: 'ORI'}, type: 1},{buttonId: 'setmenu simpel', buttonText: {displayText: 'SIMPEL'}, type: 1}]
 const skuygelud = {
     contentText: `${anu}`,
-    footerText: '*_©wibu_*',
+    footerText: '*_©𝙎𝙀𝙍𝙑𝙀𝙍_*',
     buttons: buttons,
     headerType: 1
 }
@@ -2778,7 +2778,7 @@ anu =`Silahkan pilih salah satu di bawah`
  buttons = [{buttonId: 'setallmenu ori', buttonText: {displayText: 'ORI'}, type: 1},{buttonId: 'setallmenu simpel', buttonText: {displayText: 'SIMPEL'}, type: 1}]
 const skuygf = {
     contentText: `${anu}`,
-    footerText: '*_©wibu_*',
+    footerText: '*_©𝙎𝙀𝙍𝙑𝙀𝙍_*',
     buttons: buttons,
     headerType: 1
 }
@@ -2862,12 +2862,12 @@ break
 		MINAT PC OWNER SAJA`
  buttons = [
 {buttonId: `menu`, buttonText: {displayText: 'BACK➡️'}, type: 1},
-{buttonId:`donasi`,buttonText:{displayText:'💗DONASI💗'},type:1},
-{buttonId: `owner`, buttonText: {displayText: '🛐OWNER🛐'}, type: 1}
+{buttonId:`donasi`,buttonText:{displayText:'DONASI'},type:1},
+{buttonId: `owner`, buttonText: {displayText: 'OWNER'}, type: 1}
 ]
 const btnskuy = {
     contentText: `${anu}`,
-    footerText: '*_©wibu_*',
+    footerText: '*_©𝙎𝙀𝙍𝙑𝙀𝙍_*',
     buttons: buttons,
     headerType: 1
 }
@@ -3096,7 +3096,7 @@ if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted
 const buttons = [{buttonId: 'autorespon on', buttonText: {displayText: 'ON✔️'}, type: 1},{buttonId: 'autorespon off', buttonText: {displayText: 'OFF✖️'}, type: 1}]
 const btnharam = {
     contentText: `${anu}`,
-    footerText: '*_©wibu_*',
+    footerText: '*_©𝙎𝙀𝙍𝙑𝙀𝙍_*',
     buttons: buttons,
     headerType: 1
 }
@@ -3116,7 +3116,7 @@ await wibu.sendMessage(from, btnharam, MessageType.buttonsMessage, {quoted: ftro
 const buttons = [{buttonId: 'antideletee on', buttonText: {displayText: 'ON✔️'}, type: 1},{buttonId: 'antideletee off', buttonText: {displayText: 'OFF✖️'}, type: 1}]
 const buttonMessage = {
     contentText: `${anu}`,
-    footerText: '*_©wibu_*',
+    footerText: '*_©𝙎𝙀𝙍𝙑𝙀𝙍_*',
     buttons: buttons,
     headerType: 1
 }
@@ -3690,7 +3690,7 @@ encmediam = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.exten
 punten = [{buttonId: 'antilink off', buttonText: {displayText: 'OFF✖️'}, type: 1},{buttonId: 'antilink on', buttonText: {displayText: 'ON✔️'}, type: 1}]
 const btnasu = {
     contentText: `${anu}`,
-    footerText: '*_©wibu_*',
+    footerText: '*_©𝙎𝙀𝙍𝙑𝙀𝙍_*',
     buttons: punten,
     headerType: 1
 }
@@ -3715,7 +3715,7 @@ await wibu.sendMessage(from, btnasu, MessageType.buttonsMessage, {quoted: ftrol}
 punten = [{buttonId: 'antibug off', buttonText: {displayText: 'OFF✖️'}, type: 1},{buttonId: 'antibug on', buttonText: {displayText: 'ON✔️'}, type: 1}]
 const btasu = {
     contentText: `${anu}`,
-    footerText: '*_©wibu_*',
+    footerText: '*_©𝙎𝙀𝙍𝙑𝙀𝙍_*',
     buttons: punten,
     headerType: 1
 }
@@ -3940,7 +3940,7 @@ break
 					} else {
 						for (let _ of anu) {
 							//sendMess(_.jid, `${body.slice(4)}`)
-buttons = [{buttonId: `menu`, buttonText: {displayText: '🏴‍☠️MENU🏴‍☠️'}, type: 1},{buttonId: `owner`, buttonText: {displayText: '🛐OWNER🛐'}, type: 1}]
+buttons = [{buttonId: `menu`, buttonText: {displayText: '🏴‍☠️MENU🏴‍☠️'}, type: 1},{buttonId: `owner`, buttonText: {displayText: 'OWNER'}, type: 1}]
 const btnbc = {
     contentText: `${body.slice(4)}`,
     footerText: '*_BROADCAST_*',
@@ -5416,7 +5416,7 @@ Giliran = @${tty.player1.split('@')[0]}`
             if (!e.includes("Cannot set property 'mtype' of undefined")) {
             if (!e.includes("jid is not defined")) {
      console.log(color('|ERR|', 'red'), color(e, 'cyan'))
-     wibu.sendMessage(`${settings.NomorOwner}@s.whatsapp.net`, `─────「 *ALERT-ERROR* 」─────\n\n\`\`\`${e}\`\`\`\n\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer W A I F U",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./wibu.jpg'),sourceUrl:"https://wa.me/p/6349482305092740/6281220670449"}}})
+     wibu.sendMessage(`${settings.NomorOwner}@s.whatsapp.net`, `─────「 *ALERT-ERROR* 」─────\n\n\`\`\`${e}\`\`\`\n\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer 𝘽𝙊𝙏𝙕𝙎𝙀𝙍𝙑𝙀𝙍",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./wibu.jpg'),sourceUrl:"https://wa.me/p/6349482305092740/6289652872913"}}})
 	}
     }
     }
